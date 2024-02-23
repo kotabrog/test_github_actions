@@ -3,7 +3,7 @@ use rand::Rng;
 fn main() {
     let mut rng = rand::thread_rng();
     let x: f64 = rng.gen();
-    let y = 3.14;
+    let y = std::f64::consts::PI;
     println!("Hello, world!! random num3: {}", x * y);
 }
 
