@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./rust
+        working-directory: test_rust
 
     steps:
     - uses: actions/checkout@v4
